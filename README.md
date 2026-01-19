@@ -4,7 +4,7 @@ A simple JavaScript library app to add, remove, and toggle the read status of bo
 
 ## 🚀 Live Demo
 
-👉 [View the project live on GitHub Pages](https://mmm.github.io/library-the-odin-project-js1/)
+👉 [View the project live on GitHub Pages](https://merkotanh.github.io/library-the-odin-project-js1/)
 
 ## Features
 
