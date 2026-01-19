@@ -21,4 +21,5 @@ A simple JavaScript library app to add, remove, and toggle the read status of bo
 
 Ось як виглядає сторінка проєкту:
 
-![screenshot of a page](screenshot.png)
+![screenshot of a page](./screenshot.png)
+
