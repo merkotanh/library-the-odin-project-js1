@@ -14,3 +14,11 @@ A simple JavaScript library app to add, remove, and toggle the read status of bo
 - JavaScript
 - HTML
 - CSS
+
+## Interface
+
+# Library Project
+
+Ось як виглядає сторінка проєкту:
+
+![screenshot of a page](screenshot.png)
