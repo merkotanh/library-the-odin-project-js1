@@ -2,7 +2,10 @@
 
 A simple JavaScript library app to add, remove, and toggle the read status of books.
 
-```markdown
+## 🚀 Live Demo
+
+👉 [View the project live on GitHub Pages](https://mmm.github.io/library-the-odin-project-js1/)
+
 ## Features
 
 - Add a new book with title, author, pages, and read status.
@@ -17,9 +20,6 @@ A simple JavaScript library app to add, remove, and toggle the read status of bo
 
 ## Interface
 
-# Library Project
-
 Ось як виглядає сторінка проєкту:
 
 ![screenshot of a page](./screenshot.png)
-
