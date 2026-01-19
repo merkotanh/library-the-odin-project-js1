@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <title>Library (The Odin Project lesson)</title>
+</head>
+<body>
+    <header class="site-header">
+    <h1>My Library </h1>
+    <h3>The Odin Project</h3>
+    </header>
+
+    <!-- Button for adding new book-->
+    <button id="new-book-btn">New Book</button>
+ 
+    <!--Books list-->
+    <div id="books-container" class="books books-grid" >
+    <!--<div id="books-container" class="books" data-view="grid"></div>-->
+
+    </div>
+
+    <!-- Modal window for adding new boook -->
+    <div id="new-book-modal" hidden>
+        <div class="modal-content">
+            <h2>
+                Add new book
+            </h2>
+            <form id="new-book-form">
+                <!-- form id="new-book-form" autocomplete="off"> -->
+                <label>
+                   Title:
+                   <input type="text" name="title" required>
+                </label>
+                <label>
+                   Author:
+                   <input type="text" name="author" required>
+                </label>
+                <label>
+                   pages:
+                   <input type="number" name="pages" required>
+                </label>
+                <label>
+                   read:
+                   <input type="checkbox" name="read">
+                </label>
+
+                <button type="submit">Add book</button>
+                <button type="button" id="close-modal_btn">Cancel</button>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
